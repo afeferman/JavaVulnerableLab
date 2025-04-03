@@ -17,7 +17,7 @@
     <dependency>
     	<groupId>mysql</groupId>
     	<artifactId>mysql-connector-java</artifactId>
-    	<version>8.1.0</version>
+    	<version>5.1.26</version>
     </dependency>
     <dependency>
 	    <groupId>org.json</groupId>
@@ -44,4 +44,8 @@
   <build>
     <finalName>JavaVulnerableLab</finalName>
   </build>
+    <properties>
+        <maven.compiler.source>1.7</maven.compiler.source>
+        <maven.compiler.target>1.7</maven.compiler.target>
+    </properties>
 </project>
